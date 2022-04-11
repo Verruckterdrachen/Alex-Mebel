@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Alex Mebel - мебель для кухни и дома">
+	<link rel="preload" href="fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/Roboto-Medium.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="stylesheet" href="css/style.min.css?_v=20220411123908">
+	<title>Главная</title>
+</head>
+
+<body>
+	<div class="wrapper" data-lp>
+		<header class="header" data-lp data-header-scroll="true,20">
+	<div class="header__container">
+		<div class="header__top top-header">
+			<ul class="top-header__list" data-da=".menu__input,600,after">
+				<li class="top-header__item"><a href="#" class="top-header__link">Сборка</a></li>
+				<li class="top-header__item"><a href="#" class="top-header__link">доставка</a></li>
+				<li class="top-header__item"><a href="#" class="top-header__link">покупателю</a></li>
+				<li class="top-header__item"><a href="#" class="top-header__link">отзывы</a></li>
+				<li class="top-header__item"><a href="#" class="top-header__link">вопрос-ответ</a></li>
+			</ul>
+		</div>
+		<div class="header__main main-header">
+			<a href="#" class="main-header__logo logo"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Логотип Alex Mebel - мебель для кухни и дома"></picture></a>
+			<div class="main-header__city" data-da=".menu__input,470,after">
+				<label class=" main-header__label" for="city">Мой город</label>
+				<select class="main-header__select" id="city">
+					<option value="moscow" selected>Москва</option>
+					<option value="kazan">Казань</option>
+				</select>
+			</div>
+			<div class="main-header__contacts" data-da=".menu__input,600,after">
+				<a href="tel:+84993756200" class="main-header__tel">8 (499) 375-62-00</a>
+				<a href="tel:+89606092907" class="main-header__tel">8 (960) 609-29-07</a>
+				<p class="main-header__schedule">Без выходных 9:00-21:00</p>
+			</div>
+			<button class="main-header__button button button--fill" data-da=".menu-burger,768,in">Заказать звонок</button>
+			<div class="main-header__actions">
+				<button class="main-header__favorite" aria-label="Избранное">
+					<svg>
+						<use xlink:href="img/icons/sprite.svg#favorite"></use>
+					</svg>
+				</button>
+				<button class="main-header__cart" aria-label="Корзина">
+					<svg>
+						<use xlink:href="img/icons/sprite.svg#cart"></use>
+					</svg>
+				</button>
+			</div>
+			<button class="header__toggle menu-toggle" type="button" aria-expanded="false" aria-label="Открыть меню">
+				<span></span>
+			</button>
+			<div class="header__menu-burger menu-burger">
+			</div>
+		</div>
+	</div>
+	<div class="header__menu menu">
+		<div class="menu__container" data-da=".main-header__button ,768,before">
+			<nav class="menu__body">
+				<ul class="menu__list" data-spoilers="menu,false,null">
+					<li class="menu__item">
+						<a href="#" class="menu__link">главная</a>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link" data-spoiler>Каталог</a>
+						<ul class="menu__category submenu" data-spoiler-content>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">
+									<span>Гостиная</span>
+									<svg>
+										<use xlink:href="img/icons/sprite.svg#arrow-menu"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">
+									<span>Прихожая</span>
+									<svg>
+										<use xlink:href="img/icons/sprite.svg#arrow-menu"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="menu__subitem submenu__item">
+								<a href="#" class="submenu__link" data-spoiler>
+									<span>Спальня</span>
+									<svg>
+										<use xlink:href="img/icons/sprite.svg#arrow-menu"></use>
+									</svg>
+								</a>
+								<ul class="menu__subcategory submenu" data-spoiler-content>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">
+											<span>Готовые композиции</span>
+											<svg>
+												<use xlink:href="img/icons/sprite.svg#arrow-menu"></use>
+											</svg>
+										</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">
+											<span>Тумбы прикроватные</span>
+											<svg>
+												<use xlink:href="img/icons/sprite.svg#arrow-menu"></use>
+											</svg>
+										</a>
+									</li>
+									<li class="menu__subsubitem submenu__item">
+										<a href="#" class="submenu__link" data-spoiler>
+											<span>Кровати</span>
+											<svg>
+												<use xlink:href="img/icons/sprite.svg#arrow-menu"></use>
+											</svg>
+										</a>
+										<ul class="menu__subsubcategory submenu" data-content>
+											<li class="submenu__item">
+												<a href="#" class="submenu__link">Двуспальные</a>
+											</li>
+											<li class="submenu__item">
+												<a href="#" class="submenu__link">Односпальные</a>
+											</li>
+											<li class="submenu__item">
+												<a href="#" class="submenu__link">Двухъярусная</a>
+											</li>
+										</ul>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">
+											<span>Шкафы для спальни</span>
+											<svg>
+												<use xlink:href="img/icons/sprite.svg#arrow-menu"></use>
+											</svg>
+										</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">
+											<span>Туалетные столики</span>
+											<svg>
+												<use xlink:href="img/icons/sprite.svg#arrow-menu"></use>
+											</svg>
+										</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">
+											<span>Комоды</span>
+											<svg>
+												<use xlink:href="img/icons/sprite.svg#arrow-menu"></use>
+											</svg>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">
+									<span>Детская</span>
+									<svg>
+										<use xlink:href="img/icons/sprite.svg#arrow-menu"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">
+									<span>Кабинет</span>
+									<svg>
+										<use xlink:href="img/icons/sprite.svg#arrow-menu"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">
+									<span>Производители</span>
+									<svg>
+										<use xlink:href="img/icons/sprite.svg#arrow-menu"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">
+									<span>Столы и стулья</span>
+									<svg>
+										<use xlink:href="img/icons/sprite.svg#arrow-menu"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">
+									<span>По материалу</span>
+									<svg>
+										<use xlink:href="img/icons/sprite.svg#arrow-menu"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="submenu__item">
+								<a href="#" class="submenu__link">
+									<span>По предметам</span>
+									<svg>
+										<use xlink:href="img/icons/sprite.svg#arrow-menu"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">sale</a>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">контакты</a>
+					</li>
+				</ul>
+			</nav>
+			<button class="menu__search" aria-label="Поиск">
+				<svg>
+					<use xlink:href="img/icons/sprite.svg#search"></use>
+				</svg>
+			</button>
+			<input class="menu__input" type="search" placeholder="Поиск...">
+		</div>
+	</div>
+</header>
+		<main class="page">
+			<section class="page__hero hero">
+				<h2 class="visually-hidden">Галлерея работ</h2>
+				<div class="hero__slider slider-hero swiper">
+					<div class="slider-hero__body swiper-wrapper">
+						<div class="slider-hero__slide slide-hero swiper-slide">
+							<div class="slide-hero__image bg">
+								<picture><source srcset="img/hero/cover.webp" type="image/webp"><img src="img/hero/cover.jpg" alt="стол со стульями"></picture>
+							</div>
+						</div>
+						<div class="slider-hero__slide slide-hero swiper-slide">
+							<div class="slide-hero__image bg">
+								<picture><source srcset="img/hero/cover.webp" type="image/webp"><img src="img/hero/cover.jpg" alt="стол со стульями"></picture>
+							</div>
+						</div>
+						<div class="slider-hero__slide slide-hero swiper-slide">
+							<div class="slide-hero__image bg">
+								<picture><source srcset="img/hero/cover.webp" type="image/webp"><img src="img/hero/cover.jpg" alt="стол со стульями"></picture>
+							</div>
+						</div>
+					</div>
+					<div class="slider-hero__arrows">
+						<button class="slider-hero__arrow swiper-button swiper-button-prev" aria-label="Предыдущий слайд">
+							<svg>
+								<use xlink:href="img/icons/sprite.svg#arrow-slider"></use>
+							</svg>
+						</button>
+						<button class="slider-hero__arrow swiper-button swiper-button-next" aria-label="Следующий слайд">
+							<svg>
+								<use xlink:href="img/icons/sprite.svg#arrow-slider"></use>
+							</svg>
+						</button>
+					</div>
+					<div class="slider-hero__bullets swiper-pagination"></div>
+					<div class="slider-hero__numbers">
+						<div class="slider-hero__number slider-hero__number--current">01</div>
+						<div class="slider-hero__number slider-hero__number--all">03</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__advantages advantages">
+				<div class="advantages__container">
+					<h2 class="advantages__title section-title">Наши преимущества</h2>
+					<div class="advantages__body">
+						<div class="advantages__item">
+							<div class="advantages__icon"></div>
+							<div class="advantages__name">Качество</div>
+							<p class="advantages__text">Вся мебель производится на фабриках, много лет работающих на рынке</p>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon"></div>
+							<div class="advantages__name">доступные цены</div>
+							<p class="advantages__text">Самый широкий ассортимент продукции по доступным ценам</p>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon"></div>
+							<div class="advantages__name">сроки</div>
+							<p class="advantages__text">Изготовление и доставка мебели строго в оговоренные сроки</p>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon"></div>
+							<div class="advantages__name">доставка, сборка</div>
+							<p class="advantages__text">Сервис доставки и сборки мебели</p>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon"></div>
+							<div class="advantages__name">подход</div>
+							<p class="advantages__text">Полная консультация по интересующим Вас вопросам</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__review review">
+				<div class="review__container">
+					<h2 class="visually-hidden">Отзывы</h2>
+					<div class="review__body">
+						<div class="review__media media">
+							<div class="media__video">
+								<button class="media__play" aria-label="Запустить видео">
+									<svg>
+										<use xlink:href="img/icons/sprite.svg#play"></use>
+									</svg>
+								</button>
+								<div class="media__file bg">
+									<video src="files/video.mp4" poster="img/review/poster.jpg" muted loop preload="metadata"></video>
+								</div>
+							</div>
+							<a href="#" class="review__link link">Все отзывы</a>
+						</div>
+						<div class="review__content">
+							<div class="review__title section-title">Компания «Алекс-Мебель» выступает под девизом «Мы предлагаем Вам лучшее»</div>
+							<div class="review__text">
+								<p class="review__paragraph">Компания «Алекс-Мебель» выступает под девизом «Мы предлагаем Вам лучшее».</p>
+								<p class="review__paragraph">В каталоге продукции вы сможете выбрать и купить варианты мебели на любой вкус и цвет: деревянный стол, стол с искусственным камнем, обеденную группу недорого, мебель для кухни на заказ более 150 наименований.</p>
+								<p class="review__paragraph">Покупая мебель у нас, Вы получаете оптимальное сочетание цены и качества!</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<section class="page__stock stock">
+				<div class="stock__container">
+					<div class="stock__head">
+						<h2 class="stock__title section-title">Акции</h2>
+						<a href="#" class="stock__button button button--stroke">смотреть все</a>
+					</div>
+					<div class="stock__slider slider-stock swiper">
+						<div class="slider-stock__body swiper-wrapper">
+							<div class="slider-stock__slide slide-stock swiper-slide">
+								<a href="#" class="slide-stock__image bg">
+									<picture><source srcset="img/stock/01.webp" type="image/webp"><img src="img/stock/01.png" alt="Стул"></picture>
+								</a>
+								<h3 class="slide-stock__title"><a href="#">Стул</a></h3>
+								<p class="slide-stock__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+								<div class="slide-stock__prices">
+									<div class="slide-stock__price">7 000 ₽</div>
+									<div class="slide-stock__price slide-stock__price--old">7 000 ₽</div>
+								</div>
+								<a href="#" class="slide-stock__link link">Подробнее</a>
+								<div class="slide-stock__mark">sale</div>
+							</div>
+							<div class="slider-stock__slide slide-stock swiper-slide">
+								<a href="#" class="slide-stock__image bg">
+									<picture><source srcset="img/stock/02.webp" type="image/webp"><img src="img/stock/02.png" alt="Стул"></picture>
+								</a>
+								<h3 class="slide-stock__title"><a href="#">Стул</a></h3>
+								<p class="slide-stock__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+								<div class="slide-stock__prices">
+									<div class="slide-stock__price">7 000 ₽</div>
+									<div class="slide-stock__price slide-stock__price--old">7 000 ₽</div>
+								</div>
+								<a href="#" class="slide-stock__prices__link link">Подробнее</a>
+								<div class="slide-stock__mark">sale</div>
+							</div>
+							<div class="slider-stock__slide slide-stock swiper-slide">
+								<a href="#" class="slide-stock__image bg">
+									<picture><source srcset="img/stock/03.webp" type="image/webp"><img src="img/stock/03.png" alt="Стул"></picture>
+								</a>
+								<h3 class="slide-stock__title"><a href="#">Стул</a></h3>
+								<p class="slide-stock__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+								<div class="slide-stock__prices">
+									<div class="slide-stock__price">7 000 ₽</div>
+									<div class="slide-stock__price slide-stock__price--old">7 000 ₽</div>
+								</div>
+								<a href="#" class="slide-stock__prices__link link">Подробнее</a>
+								<div class="slide-stock__mark">sale</div>
+							</div>
+							<div class="slider-stock__slide slide-stock swiper-slide">
+								<a href="#" class="slide-stock__image bg">
+									<picture><source srcset="img/stock/04.webp" type="image/webp"><img src="img/stock/04.png" alt="Стул"></picture>
+								</a>
+								<h3 class="slide-stock__title"><a href="#">Стул</a></h3>
+								<p class="slide-stock__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+								<div class="slide-stock__prices">
+									<div class="slide-stock__price">7 000 ₽</div>
+									<div class="slide-stock__price slide-stock__price--old">7 000 ₽</div>
+								</div>
+								<a href="#" class="slide-stock__prices__link link">Подробнее</a>
+								<div class="slide-stock__mark">sale</div>
+							</div>
+							<div class="slider-stock__slide slide-stock swiper-slide">
+								<a href="#" class="slide-stock__image bg">
+									<picture><source srcset="img/stock/01.webp" type="image/webp"><img src="img/stock/01.png" alt="Стул"></picture>
+								</a>
+								<h3 class="slide-stock__title"><a href="#">Стул</a></h3>
+								<p class="slide-stock__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+								<div class="slide-stock__prices">
+									<div class="slide-stock__price">7 000 ₽</div>
+									<div class="slide-stock__price slide-stock__price--old">7 000 ₽</div>
+								</div>
+								<a href="#" class="slide-stock__prices__link link">Подробнее</a>
+								<div class="slide-stock__mark">sale</div>
+							</div>
+							<div class="slider-stock__slide slide-stock swiper-slide">
+								<a href="#" class="slide-stock__image bg">
+									<picture><source srcset="img/stock/02.webp" type="image/webp"><img src="img/stock/02.png" alt="Стул"></picture>
+								</a>
+								<h3 class="slide-stock__title"><a href="#">Стул</a></h3>
+								<p class="slide-stock__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+								<div class="slide-stock__prices">
+									<div class="slide-stock__price">7 000 ₽</div>
+									<div class="slide-stock__price slide-stock__price--old">7 000 ₽</div>
+								</div>
+								<a href="#" class="slide-stock__prices__link link">Подробнее</a>
+								<div class="slide-stock__mark">sale</div>
+							</div>
+							<div class="slider-stock__slide slide-stock swiper-slide">
+								<a href="#" class="slide-stock__image bg">
+									<picture><source srcset="img/stock/03.webp" type="image/webp"><img src="img/stock/03.png" alt="Стул"></picture>
+								</a>
+								<h3 class="slide-stock__title"><a href="#">Стул</a></h3>
+								<p class="slide-stock__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+								<div class="slide-stock__prices">
+									<div class="slide-stock__price">7 000 ₽</div>
+									<div class="slide-stock__price slide-stock__price--old">7 000 ₽</div>
+								</div>
+								<a href="#" class="slide-stock__prices__link link">Подробнее</a>
+								<div class="slide-stock__mark">sale</div>
+							</div>
+							<div class="slider-stock__slide slide-stock swiper-slide">
+								<a href="#" class="slide-stock__image bg">
+									<picture><source srcset="img/stock/04.webp" type="image/webp"><img src="img/stock/04.png" alt="Стул"></picture>
+								</a>
+								<h3 class="slide-stock__title"><a href="#">Стул</a></h3>
+								<p class="slide-stock__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+								<div class="slide-stock__prices">
+									<div class="slide-stock__price">7 000 ₽</div>
+									<div class="slide-stock__price slide-stock__price--old">7 000 ₽</div>
+								</div>
+								<a href="#" class="slide-stock__prices__link link">Подробнее</a>
+								<div class="slide-stock__mark">sale</div>
+							</div>
+						</div>
+						<div class="slider-stock__arrows">
+							<button class="slider-stock__arrow swiper-button swiper-button-prev" aria-label="Предыдущий слайд">
+								<svg>
+									<use xlink:href="img/icons/sprite.svg#arrow-slider"></use>
+								</svg>
+							</button>
+							<button class="slider-stock__arrow swiper-button swiper-button-next" aria-label="Следующий слайд">
+								<svg>
+									<use xlink:href="img/icons/sprite.svg#arrow-slider"></use>
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__stages stages">
+				<div class="stages__container">
+					<h2 class="stages__title section-title">Этапы работ</h2>
+					<div class="stages__body">
+						<div class="stages__item item-stages">
+							<div class="item-stages__decor">
+								<div class="item-stages__icon"></div>
+							</div>
+							<h3 class="item-stages__title">Заявка</h3>
+							<p class="item-stages__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div>
+						<div class="stages__item item-stages">
+							<div class="item-stages__decor">
+								<div class="item-stages__icon"></div>
+							</div>
+							<h3 class="item-stages__title">замер</h3>
+							<p class="item-stages__desc">Lorem ipsum dolor sit amet, consectetur</p>
+						</div>
+						<div class="stages__item item-stages">
+							<div class="item-stages__decor">
+								<div class="item-stages__icon"></div>
+							</div>
+							<h3 class="item-stages__title">производство</h3>
+							<p class="item-stages__desc">Consectetur adipiscing elit lorem</p>
+						</div>
+						<div class="stages__item item-stages">
+							<div class="item-stages__decor">
+								<div class="item-stages__icon"></div>
+							</div>
+							<h3 class="item-stages__title">установка</h3>
+							<p class="item-stages__desc">Lorem ipsum dolor sit amet, consectetur Lorem psumconsectetur</p>
+						</div>
+					</div>
+					<a href="#" class="stages__button button button--fill">сделать заказ</a>
+				</div>
+			</section>
+			<section class="page__news news">
+				<div class="news__container">
+					<h2 class="news__title section-title">Новости компании</h2>
+					<div class="news__slider slider-news swiper">
+						<div class="slider-news__body swiper-wrapper">
+							<div class="slider-news__slide slide-news swiper-slide">
+								<a href="#" class="slide-news__image bg">
+									<picture><source srcset="img/news/01.webp" type="image/webp"><img src="img/news/01.jpg" alt="спальня с деревянной мебелью"></picture>
+								</a>
+								<div class="slide-news__content">
+									<h3 class="slide-news__title"><a href="#">преимущества мебели из натурального дерева</a></h3>
+								</div>
+							</div>
+							<div class="slider-news__slide slide-news swiper-slide">
+								<a href="#" class="slide-news__image bg">
+									<picture><source srcset="img/news/02.webp" type="image/webp"><img src="img/news/02.jpg" alt="деревянный стол с вазой"></picture>
+								</a>
+								<div class="slide-news__content">
+									<h3 class="slide-news__title"><a href="#">Lorem ipsum dolor sit</a></h3>
+								</div>
+							</div>
+							<div class="slider-news__slide slide-news swiper-slide">
+								<a href="#" class="slide-news__image bg">
+									<picture><source srcset="img/news/03.webp" type="image/webp"><img src="img/news/03.jpg" alt="стол из искусственного камня"></picture>
+								</a>
+								<div class="slide-news__content">
+									<h3 class="slide-news__title"><a href="#">искусственный камень - новое слово в кухонной мебели</a></h3>
+								</div>
+							</div>
+							<div class="slider-news__slide slide-news swiper-slide">
+								<a href="#" class="slide-news__image bg">
+									<picture><source srcset="img/news/04.webp" type="image/webp"><img src="img/news/04.jpg" alt="стол из искусственного камня"></picture>
+								</a>
+								<div class="slide-news__content">
+									<h3 class="slide-news__title"><a href="#">Lorem ipsum dolor sitLorem ipsum dolor sit</a></h3>
+								</div>
+							</div>
+							<div class="slider-news__slide slide-news swiper-slide">
+								<a href="#" class="slide-news__image bg">
+									<picture><source srcset="img/news/01.webp" type="image/webp"><img src="img/news/01.jpg" alt="спальня с деревянной мебелью"></picture>
+								</a>
+								<div class="slide-news__content">
+									<h3 class="slide-news__title"><a href="#">преимущества мебели из натурального дерева</a></h3>
+								</div>
+							</div>
+							<div class="slider-news__slide slide-news swiper-slide">
+								<a href="#" class="slide-news__image bg">
+									<picture><source srcset="img/news/02.webp" type="image/webp"><img src="img/news/02.jpg" alt="деревянный стол с вазой"></picture>
+								</a>
+								<div class="slide-news__content">
+									<h3 class="slide-news__title"><a href="#">Lorem ipsum dolor sit</a></h3>
+								</div>
+							</div>
+							<div class="slider-news__slide slide-news swiper-slide">
+								<a href="#" class="slide-news__image bg">
+									<picture><source srcset="img/news/03.webp" type="image/webp"><img src="img/news/03.jpg" alt="стол из искусственного камня"></picture>
+								</a>
+								<div class="slide-news__content">
+									<h3 class="slide-news__title"><a href="#">искусственный камень - новое слово в кухонной мебели</a></h3>
+								</div>
+							</div>
+							<div class="slider-news__slide slide-news swiper-slide">
+								<a href="#" class="slide-news__image bg">
+									<picture><source srcset="img/news/04.webp" type="image/webp"><img src="img/news/04.jpg" alt="стол из искусственного камня"></picture>
+								</a>
+								<div class="slide-news__content">
+									<h3 class="slide-news__title"><a href="#">Lorem ipsum dolor sitLorem ipsum dolor sit</a></h3>
+								</div>
+							</div>
+						</div>
+						<div class="slider-news__arrows">
+							<button class="slider-news__arrow swiper-button swiper-button-prev" aria-label="Предыдущий слайд">
+								<svg>
+									<use xlink:href="img/icons/sprite.svg#arrow-slider"></use>
+								</svg>
+							</button>
+							<button class="slider-news__arrow swiper-button swiper-button-next" aria-label="Следующий слайд">
+								<svg>
+									<use xlink:href="img/icons/sprite.svg#arrow-slider"></use>
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__info info">
+				<div class="info__container">
+					<h2 class="info__title section-title">Недорогая мебель от ведущих производителей в Москве</h2>
+					<div class="info__desc">
+						<p class="info__paragraph">Неотъемлемым атрибутом нашей жизнедеятельности является мебель, которая окружает нас повсюду – дома, на работе, в магазинах, банках, ресторанах, административных учреждениях и т. д. Мебель выполняет ряд функциональных задач, а также служит в качестве средства выражения индивидуальной эстетики и личных предпочтений человека. Сочетая в себе красоту и комфорт, она еще и должна отличаться неповторимостью стилистических решений. Современные реалии диктуют свои условия относительно проектирования жилья: сегодня оно требует более творческого и индивидуального подхода к организации интерьера. Грамотно подобранная с учетом всех особенностей вашего жилища мебель позволит вам достичь рационального использования пространства помещения и получения максимально функционального интерьера.</p>
+						<p class="info__paragraph">Если вы желаете купить мебель от производителя недорого, мы всегда к вашим услугам! Мы реализуем изделия, в полной мере будет соответствующие тем параметрам, которые заявляет для них фабрика мебели. Эксплуатационные характеристики и качество конструкций порадуют вас своим высоким уровнем. У нас вы всегда сможете приобрести на выгодных условиях столы деревянные и металлические, стулья деревянные и металлические, табуреты, банкетки, кухонные уголки, кресла, пуфы, угловые диваны, диваны еврокнижки, диваны-аккордеоны. Красивая, удобная, долговечная и престижная мебель у нас сочетается с вполне разумными ценами.</p>
+					</div>
+					<div class="info__body" data-spoilers="info,false,null">
+						<div class="info__item">
+							<h3 data-spoiler>
+								<button class="info__subtitle">
+									<span>Чем обусловлена стоимость мебели в нашем интернет-магазине?</span>
+									<span class="info__icon">
+										<svg>
+											<use xlink:href="img/icons/sprite.svg#arrow-spoiler"></use>
+										</svg>
+									</span>
+								</button>
+							</h3>
+							<div class="info__content">
+								<p class="info__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas at quibusdam dolorem quisquam perferendis illo fugit ducimus rem quia saepe odit quo nostrum labore doloribus, rerum vel culpa excepturi vitae.</p>
+							</div>
+						</div>
+						<div class="info__item">
+							<h3 data-spoiler>
+								<button class="info__subtitle">
+									<span>Почему стоит приобрести мебель именно в нашем интернет-магазине?</span>
+									<span class="info__icon">
+										<svg>
+											<use xlink:href="img/icons/sprite.svg#arrow-spoiler"></use>
+										</svg>
+									</span>
+								</button>
+							</h3>
+							<div class="info__content">
+								<p class="info__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas at quibusdam dolorem quisquam perferendis illo fugit ducimus rem quia saepe odit quo nostrum labore doloribus, rerum vel culpa excepturi vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas at quibusdam dolorem quisquam perferendis illo fugit ducimus rem quia saepe odit quo nostrum labore doloribus, rerum vel culpa excepturi vitae.</p>
+							</div>
+						</div>
+						<div class="info__item">
+							<h3 data-spoiler>
+								<button class="info__subtitle">
+									<span>Чем выгодна торговля через Интернет?</span>
+									<span class="info__icon">
+										<svg>
+											<use xlink:href="img/icons/sprite.svg#arrow-spoiler"></use>
+										</svg>
+									</span>
+								</button>
+							</h3>
+							<div class="info__content">
+								<p class="info__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas at quibusdam dolorem quisquam perferendis illo fugit ducimus rem quia saepe odit quo nostrum labore doloribus, rerum vel culpa excepturi vitae.</p>
+							</div>
+						</div>
+						<div class="info__item">
+							<h3 data-spoiler>
+								<button class="info__subtitle">
+									<span>в чем Преимущества интернет-магазинов?</span>
+									<span class="info__icon">
+										<svg>
+											<use xlink:href="img/icons/sprite.svg#arrow-spoiler"></use>
+										</svg>
+									</span>
+								</button>
+							</h3>
+							<div class="info__content">
+								<p class="info__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas at quibusdam dolorem quisquam perferendis illo fugit ducimus rem quia saepe odit quo nostrum labore doloribus, rerum vel culpa excepturi vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas at quibusdam dolorem quisquam perferendis illo fugit ducimus rem quia saepe odit quo nostrum labore doloribus, rerum vel culpa excepturi vitae.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__questions questions">
+				<div class="questions__container">
+					<div class="questions__body">
+						<div class="questions__left">
+							<h2 class="questions__title section-title section-title--white">Остались вопросы?</h2>
+							<p class="questions__desc">Заполните форму и мы Вам перезвоним или свяжитесь с нами сами!</p>
+							<div class="questions__contacts">
+								<a href="tel:+84993756200" class="questions__tel">8 (499) 375-62-00</a>
+								<a href="tel:+89606092907" class="questions__tel">8 (960) 609-29-07</a>
+								<p class="questions__schedule">Без выходных 9:00-21:00</p>
+							</div>
+						</div>
+						<form action="#" class="questions__form form" data-form>
+							<div class="form__body">
+								<div class="form__item">
+									<label class="visually-hidden" for="initials">Введите ваши фамилию, имя и отчество</label>
+									<input class="form__input" name="initials" id="initials" type="text" placeholder="ФИО" data-required>
+								</div>
+								<div class="form__item">
+									<label class="visually-hidden" for="phone">Введите ваш номер телефона</label>
+									<input class="form__input" name="phone" id="phone" type="tel" placeholder="Телефон" data-required data-validate>
+								</div>
+								<div class="form__item">
+									<label class="visually-hidden" for="message">Задайте ваш вопрос</label>
+									<textarea class="form__input" name="message" id="message" placeholder="Ваш вопрос" data-required data-validate="10,300"></textarea>
+								</div>
+								<div class="form__item">
+									<label class="form__label">
+										<input class="form__checkbox" name="checkbox" id="checkbox" type="checkbox" data-required data-validate>
+										<span class="span">Я не робот</span>
+									</label>
+								</div>
+							</div>
+							<button class="form__button button button--fill" type="submit">Оставить заявку</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+	<div class="footer__main">
+		<div class="footer__container">
+			<div class="footer__body">
+				<a href="#" class="footer__logo logo"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Логотип Alex Mebel - мебель для кухни и дома"></picture></a>
+				<div class="footer__menu">
+					<div class="footer__block">
+						<h2 class="footer__title">продукция</h2>
+						<ul class="footer__list">
+							<li class="footer__item"><a href="#" class="footer__link">Производители</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">По предметам</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Столы и стулья</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">По материалам</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Для гостиной</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Для кабинета</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Для прихожей</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Для детской</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Для спальни</a></li>
+						</ul>
+					</div>
+					<div class="footer__block">
+						<h2 class="footer__title">О компании</h2>
+						<ul class="footer__list">
+							<li class="footer__item"><a href="#" class="footer__link">Контакты</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Покупателю</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Отзывы</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Сборка</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Доставка</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Вопрос-ответ</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__contacts">
+					<div class="footer__phones">
+						<a href="tel:+84993756200" class="footer__link">8 (499) 375-62-00</a>
+						<a href="tel:+89606092907" class="footer__link">8 (960) 609-29-07</a>
+					</div>
+					<div class="footer__email">
+						<a href="mailto:sale.alexgroup@mail.ru" class="footer__link">sale.alexgroup@mail.ru</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer__bottom">
+		<div class="footer__container">
+			<p class="footer__copy">© «АлекГрупп» ОГРН 1147154026205, 2014 — 2022 – мебель для кухни. </p>
+		</div>
+	</div>
+</footer>
+		<div class="popup-success" role="dialog" data-lp data-popup="form">
+	<div class="popup-success__wrapper">
+		<div class="popup-success__content">
+			<div class="popup-success__body">
+				<div class="popup-success__title">Ваша заявка была успешно отправлена!</div>
+			</div>
+			<button class="popup-success__close" aria-label="Закрыть модальное окно" data-popup-close>
+				<svg>
+					<use xlink:href="img/icons/sprite.svg#close"></use>
+				</svg>
+			</button>
+		</div>
+	</div>
+</div>
+	</div>
+	<script src="js/main.min.js?_v=20220411123908"></script>
+</body>
+
+</html>
